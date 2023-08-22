@@ -1,25 +1,15 @@
-import logo from './logo.svg'
-import styles from './app.module.css'
-// import PropTypes from 'prop-types'
-// import { useState } from 'react'
+import styled from 'styled-components'
+
+const Div = styled.div`
+	text-align: center;
+`
 
 export const App = () => {
 	return (
-		<div className={styles.app}>
-			<header className={styles.appHeader}>
-				<img src={logo} className={styles.appLogo} alt="logo" />
-				<p>
-					Edit <code>src/App.js</code> and save to reload.
-				</p>
-				<a
-					className={styles.appLink}
-					href="https://reactjs.org"
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					Learn React
-				</a>
-			</header>
-		</div>
+		<Div>
+			<i className="fa fa-calendar fa-2x"></i>
+			<div>123</div>
+			<i className="fa fa-camera-retro fa-3x"></i>
+		</Div>
 	)
 }
