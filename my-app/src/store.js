@@ -6,6 +6,7 @@ import {
 } from 'redux'
 import thunk from 'redux-thunk'
 import {
+  appReducer,
 	userReducer,
 	usersReducer,
 	postReducer,
@@ -13,6 +14,7 @@ import {
 } from './reducers'
 
 const reducer = combineReducers({
+  app: appReducer,
 	user: userReducer,
 	users: usersReducer,
 	post: postReducer,

@@ -1,5 +1,5 @@
-import { useState } from 'react'
-import { useDispatch } from 'react-redux'
+import { useEffect, useState } from 'react'
+import { useDispatch, useStore } from 'react-redux'
 import { Link } from 'react-router-dom'
 import { useForm } from 'react-hook-form'
 import * as yup from 'yup'
@@ -47,6 +47,7 @@ const ErrorMessage = styled.div`
 const AuthorizationContainer = ({ className }) => {
 	const {
 		register,
+		reset,
 		handleSubmit,
 		formState: { errors },
 	} = useForm({
@@ -60,6 +61,21 @@ const AuthorizationContainer = ({ className }) => {
 	const [serverError, setServerError] = useState(null)
 
 	const dispatch = useDispatch()
+
+	const store = useStore()
+
+	useEffect(() => {
+		let currentWasLogout = store.getState().app.wasLogout
+
+		return store.subscribe(() => {
+			let previousWasLogout = currentWasLogout
+			currentWasLogout = store.getState().app.wasLogout
+
+			if (currentWasLogout !== previousWasLogout) {
+				reset()
+			}
+		})
+	}, [])
 
 	const onSubmit = ({ login, password }) => {
 		server.authorize(login, password).then(({ error, res }) => {
