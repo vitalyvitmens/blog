@@ -60,7 +60,7 @@ const AuthorizationContainer = ({ className }) => {
 	const roleId = useSelector(selectUserRole)
 
 	useResetForm(reset)
-  
+
 	const onSubmit = ({ login, password }) => {
 		server.authorize(login, password).then(({ error, res }) => {
 			if (error) {

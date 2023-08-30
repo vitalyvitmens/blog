@@ -1,5 +1,5 @@
-import { generateDate } from './generate-date'
-import { ROLE } from '../constants'
+import { generateDate } from '../utils'
+import { ROLE } from '../../constants'
 
 export const addUser = (login, password) =>
 	fetch('http://localhost:3005/users', {
