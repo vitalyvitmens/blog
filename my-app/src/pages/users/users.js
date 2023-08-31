@@ -3,6 +3,7 @@ import { useServerRequest } from '../../hooks'
 import { Content, H2 } from '../../components'
 import { UserRow, TableRow } from './components'
 import styled from 'styled-components'
+import { ROLE } from '../../constants'
 
 const UsersContainer = ({ className }) => {
 	const [users, setUsers] = useState([])
@@ -40,7 +41,7 @@ const UsersContainer = ({ className }) => {
 							login={login}
 							registeredAt={registeredAt}
 							roleId={roleId}
-							roles={roles}
+							roles={roles.filter(({ roleId }) => roleId !== ROLE.GUEST)}
 						/>
 					))}
 				</div>
@@ -55,4 +56,5 @@ export const Users = styled(UsersContainer)`
 	align-items: center;
 	width: 570px;
 	margin: 0 auto;
+	font-size: 18px;
 `
