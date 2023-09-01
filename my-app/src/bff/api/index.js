@@ -1,3 +1,4 @@
+export * from './set-user-role'
 export * from './get-roles'
 export * from './add-user'
 export * from './get-user'

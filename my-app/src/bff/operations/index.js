@@ -1,3 +1,4 @@
+export * from './update-user-role'
 export * from './authorize'
 export * from './fetch-roles'
 export * from './logout'
