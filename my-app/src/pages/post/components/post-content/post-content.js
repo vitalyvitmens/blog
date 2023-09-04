@@ -49,7 +49,7 @@ export const PostContent = styled(PostContentContainer)`
 	& .published-at {
 		display: flex;
 		align-items: center;
-    font-size: 18px;
+		font-size: 18px;
 	}
 
 	& i {
@@ -59,5 +59,9 @@ export const PostContent = styled(PostContentContainer)`
 
 	& .buttons {
 		display: flex;
+	}
+
+	& .post-text {
+		font-size: 18px;
 	}
 `
