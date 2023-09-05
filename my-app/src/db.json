@@ -172,37 +172,9 @@
     {
       "author_id": "001",
       "post_id": "001",
-      "published_at": "2054-01-06 04:21",
-      "content": "First commit 2",
+      "published_at": "2036-03-18 03:35",
+      "content": "Second commit",
       "id": 2
-    },
-    {
-      "author_id": "001",
-      "post_id": "001",
-      "published_at": "2049-04-08 15:40",
-      "content": "First commit 3",
-      "id": 3
-    },
-    {
-      "author_id": "001",
-      "post_id": "001",
-      "published_at": "2037-03-30 17:25",
-      "content": "First commit 4",
-      "id": 4
-    },
-    {
-      "author_id": "001",
-      "post_id": "001",
-      "published_at": "2065-01-12 22:06",
-      "content": "First commit 5",
-      "id": 5
-    },
-    {
-      "author_id": "001",
-      "post_id": "001",
-      "published_at": "2057-08-13 01:31",
-      "content": "first commit 6",
-      "id": 6
     }
   ],
   "sessions": [
