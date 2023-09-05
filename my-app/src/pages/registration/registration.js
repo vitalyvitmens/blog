@@ -57,7 +57,7 @@ const RegistrationContainer = ({ className }) => {
 	const dispatch = useDispatch()
 	const roleId = useSelector(selectUserRole)
 
-  useResetForm(reset)
+	useResetForm(reset)
 
 	const onSubmit = ({ login, password }) => {
 		server.register(login, password).then(({ error, res }) => {
@@ -67,6 +67,7 @@ const RegistrationContainer = ({ className }) => {
 			}
 
 			dispatch(setUser(res))
+			sessionStorage.setItem('userData', JSON.stringify(res))
 		})
 	}
 
