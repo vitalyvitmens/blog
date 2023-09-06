@@ -165,16 +165,23 @@
     {
       "author_id": "001",
       "post_id": "001",
-      "published_at": "2035-11-06 03:08",
-      "content": "First commit",
-      "id": 1
+      "published_at": "2036-01-13 01:46",
+      "content": "First comment",
+      "id": 6
     },
     {
       "author_id": "001",
       "post_id": "001",
-      "published_at": "2036-03-18 03:35",
-      "content": "Second commit",
-      "id": 2
+      "published_at": "2062-03-29 12:07",
+      "content": "Second comment",
+      "id": 7
+    },
+    {
+      "author_id": "001",
+      "post_id": "001",
+      "published_at": "2038-08-27 01:55",
+      "content": "Third comment",
+      "id": 8
     }
   ],
   "sessions": [
@@ -188,6 +195,17 @@
         "roleId": 0
       },
       "id": 1
+    },
+    {
+      "hash": "0.45332823487662010641940923960646614432334899902344",
+      "user": {
+        "id": "001",
+        "login": "vitaly",
+        "password": "qwerty123",
+        "registeredAt": "2050-09-07",
+        "roleId": 0
+      },
+      "id": 2
     }
   ]
 }
