@@ -30,7 +30,7 @@ export const Blog = () => {
 			return
 		}
 
-    const currentUserData = JSON.parse(currentUserDataJSON)
+		const currentUserData = JSON.parse(currentUserDataJSON)
 
 		dispatch(
 			setUser({
@@ -50,12 +50,12 @@ export const Blog = () => {
 					<Route path="/register" element={<Registration />} />
 					<Route path="/users" element={<Users />} />
 					<Route path="/post" element={<div>Новая статья</div>} />
-					<Route path="/post/:id" element={<Post />} />
+					<Route path="/post/:id/edit" element={<Post />} />
 					<Route path="*" element={<div>Ошибка</div>} />
 				</Routes>
 			</Page>
 			<Footer />
-      <Modal/>
+			<Modal />
 		</AppColumn>
 	)
 }
