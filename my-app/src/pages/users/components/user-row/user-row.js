@@ -62,5 +62,6 @@ export const UserRow = styled(UserRowContainer)`
 	& select {
 		padding: 0 5px;
 		font-size: 16px;
+    background-color: antiquewhite;
 	}
 `

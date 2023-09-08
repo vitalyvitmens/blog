@@ -13,7 +13,7 @@ const AppColumn = styled.div`
 	width: 1000px;
 	min-height: 100%;
 	margin: 0 auto;
-	background-color: #fff;
+  background-color: antiquewhite;
 `
 
 const Page = styled.div`
