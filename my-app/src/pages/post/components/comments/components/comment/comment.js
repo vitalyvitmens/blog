@@ -73,6 +73,7 @@ const CommentContainer = ({
 export const Comment = styled(CommentContainer)`
 	display: flex;
 	margin-top: 10px;
+  background-color: antiquewhite;
 
 	& .comment {
 		border: 1px solid #000;
