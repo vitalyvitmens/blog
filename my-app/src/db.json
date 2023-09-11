@@ -189,6 +189,34 @@
       "published_at": "2038-08-27 01:55",
       "content": "Third comment",
       "id": 8
+    },
+    {
+      "author_id": "001",
+      "post_id": "002",
+      "published_at": "2047-02-15 22:24",
+      "content": "Первый комментарий",
+      "id": 9
+    },
+    {
+      "author_id": "001",
+      "post_id": "002",
+      "published_at": "2057-10-30 13:12",
+      "content": "Второй комментарий",
+      "id": 10
+    },
+    {
+      "author_id": "001",
+      "post_id": "002",
+      "published_at": "2048-04-16 14:01",
+      "content": "Третий комментарий",
+      "id": 11
+    },
+    {
+      "author_id": "001",
+      "post_id": "002",
+      "published_at": "2064-12-18 13:54",
+      "content": "Четвертый комментарий",
+      "id": 12
     }
   ],
   "sessions": [
@@ -246,6 +274,17 @@
         "roleId": 0
       },
       "id": 5
+    },
+    {
+      "hash": "0.41871564330705690615275216259760782122611999511719",
+      "user": {
+        "id": "001",
+        "login": "vitaly",
+        "password": "qwerty123",
+        "registeredAt": "2050-09-07",
+        "roleId": 0
+      },
+      "id": 6
     }
   ]
 }
