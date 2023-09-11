@@ -2,7 +2,7 @@ import { useLayoutEffect } from 'react'
 import { Routes, Route } from 'react-router-dom'
 import { useDispatch } from 'react-redux'
 import { Header, Footer, Modal } from './components'
-import { Authorization, Post, Registration, Users } from './pages'
+import { Authorization, Main, Post, Registration, Users } from './pages'
 import { setUser } from './actions'
 import styled from 'styled-components'
 
@@ -13,7 +13,7 @@ const AppColumn = styled.div`
 	width: 1000px;
 	min-height: 100%;
 	margin: 0 auto;
-  background-color: antiquewhite;
+	background-color: antiquewhite;
 `
 
 const Page = styled.div`
@@ -45,7 +45,7 @@ export const Blog = () => {
 			<Header />
 			<Page>
 				<Routes>
-					<Route path="/" element={<div>Главная страница</div>} />
+					<Route path="/" element={<Main />} />
 					<Route path="/login" element={<Authorization />} />
 					<Route path="/register" element={<Registration />} />
 					<Route path="/users" element={<Users />} />
