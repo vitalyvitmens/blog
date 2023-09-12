@@ -16,7 +16,7 @@ export const Button = styled(ButtonContainer)`
 	width: ${({ width = '100%' }) => width};
 	height: 32px;
 	border: 1px solid #000;
-	background-color: ${({ disabled }) => (disabled ? 'antiquewhite' : 'bisque')};
+	background-color: bisque;
 
 	&:hover {
 		cursor: ${({ disabled }) => (disabled ? 'default' : 'pointer')};
