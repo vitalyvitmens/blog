@@ -13,6 +13,13 @@
       "registed_at": "2047-04-30 04:41",
       "role_id": 1,
       "id": "1Z4beS9"
+    },
+    {
+      "login": "petr",
+      "password": "qwerty123",
+      "registed_at": "2055-07-29 12:21",
+      "role_id": 2,
+      "id": "Sw6U59S"
     }
   ],
   "roles": [
@@ -178,113 +185,32 @@
   "comments": [
     {
       "author_id": "001",
-      "post_id": "001",
-      "published_at": "2062-03-29 12:07",
-      "content": "Second comment",
-      "id": 7
-    },
-    {
-      "author_id": "001",
-      "post_id": "001",
-      "published_at": "2038-08-27 01:55",
-      "content": "Third comment",
-      "id": 8
-    },
-    {
-      "author_id": "001",
-      "post_id": "002",
-      "published_at": "2047-02-15 22:24",
-      "content": "Первый комментарий",
-      "id": 9
-    },
-    {
-      "author_id": "001",
       "post_id": "002",
       "published_at": "2057-10-30 13:12",
-      "content": "Второй комментарий",
+      "content": "Первый комментарий Виталия",
       "id": 10
     },
     {
       "author_id": "001",
       "post_id": "002",
       "published_at": "2048-04-16 14:01",
-      "content": "Третий комментарий",
+      "content": "Второй комментарий Виталия",
       "id": 11
     },
     {
-      "author_id": "001",
+      "author_id": "1Z4beS9",
       "post_id": "002",
-      "published_at": "2064-12-18 13:54",
-      "content": "Четвертый комментарий",
+      "published_at": "2042-01-18 10:36",
+      "content": "Первый комментарий Егора",
       "id": 12
+    },
+    {
+      "author_id": "Sw6U59S",
+      "post_id": "002",
+      "published_at": "2049-08-11 15:09",
+      "content": "Первый комментарий Петра",
+      "id": 13
     }
   ],
-  "sessions": [
-    {
-      "hash": "0.29644645582279482987075880373595282435417175292969",
-      "user": {
-        "id": "001",
-        "login": "vitaly",
-        "password": "qwerty123",
-        "registeredAt": "2050-09-07",
-        "roleId": 0
-      },
-      "id": 1
-    },
-    {
-      "hash": "0.45332823487662010641940923960646614432334899902344",
-      "user": {
-        "id": "001",
-        "login": "vitaly",
-        "password": "qwerty123",
-        "registeredAt": "2050-09-07",
-        "roleId": 0
-      },
-      "id": 2
-    },
-    {
-      "hash": "0.69060480947691238462482488102978095412254333496094",
-      "user": {
-        "id": "001",
-        "login": "vitaly",
-        "password": "qwerty123",
-        "registeredAt": "2050-09-07",
-        "roleId": 0
-      },
-      "id": 3
-    },
-    {
-      "hash": "0.44508012815483377622172156407032161951065063476563",
-      "user": {
-        "id": "001",
-        "login": "vitaly",
-        "password": "qwerty123",
-        "registeredAt": "2050-09-07",
-        "roleId": 0
-      },
-      "id": 4
-    },
-    {
-      "hash": "0.41545681151307944922734805004438385367393493652344",
-      "user": {
-        "id": "001",
-        "login": "vitaly",
-        "password": "qwerty123",
-        "registeredAt": "2050-09-07",
-        "roleId": 0
-      },
-      "id": 5
-    },
-    {
-      "hash": "0.41871564330705690615275216259760782122611999511719",
-      "user": {
-        "id": "001",
-        "login": "vitaly",
-        "password": "qwerty123",
-        "registeredAt": "2050-09-07",
-        "roleId": 0
-      },
-      "id": 6
-    }
-  ]
+  "sessions": []
 }
