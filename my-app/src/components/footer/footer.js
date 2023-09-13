@@ -46,7 +46,6 @@ export const Footer = styled(FooterContainer)`
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	// position: fixed;
 	bottom: 0;
 	width: 1000px;
 	height: 120px;

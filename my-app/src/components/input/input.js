@@ -13,4 +13,5 @@ export const Input = styled(InputContainer)`
 	font-size: 18px;
 	border: 1px solid #000;
   background-color: antiquewhite;
+  }
 `

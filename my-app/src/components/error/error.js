@@ -6,6 +6,7 @@ const Div = styled.div`
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+  font-size: 18px;
 
 	& .error {
 		background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
