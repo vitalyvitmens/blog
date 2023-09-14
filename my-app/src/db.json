@@ -212,5 +212,17 @@
       "id": 13
     }
   ],
-  "sessions": []
+  "sessions": [
+    {
+      "hash": "0.72997927583990862565599400113569572567939758300781",
+      "user": {
+        "id": "001",
+        "login": "vitaly",
+        "password": "qwerty123",
+        "registeredAt": "2050-09-07",
+        "roleId": 0
+      },
+      "id": 1
+    }
+  ]
 }

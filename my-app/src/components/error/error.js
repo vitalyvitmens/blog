@@ -1,12 +1,13 @@
 import { Link } from 'react-router-dom'
 import { H2 } from '../h2/h2'
 import { styled } from 'styled-components'
+import { PROP_TYPE } from '../../constants'
 
 const Div = styled.div`
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-  font-size: 18px;
+	font-size: 18px;
 
 	& .error {
 		background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
@@ -16,7 +17,7 @@ const Div = styled.div`
 	}
 
 	& .to-main {
-    margin-top: 20px;
+		margin-top: 20px;
 		color: blue;
 		font-size: 18px;
 		font-weight: 600;
@@ -40,3 +41,7 @@ export const Error = ({ error }) =>
 			</Div>
 		</>
 	)
+
+Error.propTypes = {
+	error: PROP_TYPE.ERROR,
+}
