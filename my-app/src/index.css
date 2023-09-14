@@ -13,6 +13,7 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 	background-image: url('./img/gold.jpg');
 	background-size: cover;
+  background-attachment: fixed;
 }
 
 html,
